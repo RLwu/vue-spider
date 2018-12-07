@@ -1,7 +1,7 @@
 ## vue迁移之路
 
 *** 
-* [1.0]
+* [1.0]()
 * [2.0](https://github.com/RLwu/vue-spider/tree/master/vue-cli-2.0)
 * [3.0](https://github.com/RLwu/vue-spider/tree/master/vue-cli-3.0)
 ***
@@ -16,11 +16,13 @@
 
 ### 安装 nvm
 
-```
 安装命令：
+```
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.8/install.sh | bash
+```
 
 or Wget:
+```
 wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.33.8/install.sh | bash
 ```
 
@@ -28,14 +30,16 @@ wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.33.8/install.sh | 
 
 * 你的系统可能缺少一个 .bash_profile 文件，你可以创建一个此文件（可通过vi或vim命令），打开复制粘贴以下代码（安装nvm成功后终端的最好3行代码）进去，保存，然后再次运行安装命令；
 
+```
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+```
 
 * 你可能需要重新打开一个 terminal 窗口或标签页
 
 如果上面没有解决问题，打开你的 .bash_profile 文件，并添加以下代码：
-source ~/.bashrc
+```source ~/.bashrc```
 
 ### nvm 常用命令
 
